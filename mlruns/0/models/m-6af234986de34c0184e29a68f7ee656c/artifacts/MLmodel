@@ -1,0 +1,32 @@
+artifact_path: /Users/eduardo/Documents/ds_projects/mlflow/mlruns/0/models/m-6af234986de34c0184e29a68f7ee656c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-6af234986de34c0184e29a68f7ee656c
+model_size_bytes: 179501
+model_uuid: m-6af234986de34c0184e29a68f7ee656c
+prompts: null
+run_id: 2dee373ceadf46b293f7232b488300c0
+signature:
+  inputs: '[{"type": "double", "name": "sepal length (cm)", "required": true}, {"type":
+    "double", "name": "sepal width (cm)", "required": true}, {"type": "double", "name":
+    "petal length (cm)", "required": true}, {"type": "double", "name": "petal width
+    (cm)", "required": true}, {"type": "any", "name": "optional_column", "required":
+    false}]'
+  outputs: '[{"type": "long", "name": "species", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-12 04:28:02.560503'

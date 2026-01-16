@@ -1,0 +1,34 @@
+artifact_path: /Users/eduardo/Documents/ds_projects/mlflow/mlruns/0/models/m-99a01e28909741039be68cdf2877ce4b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-99a01e28909741039be68cdf2877ce4b
+model_size_bytes: 176688
+model_uuid: m-99a01e28909741039be68cdf2877ce4b
+prompts: null
+run_id: c1ff1da9f79c461e9aa16ec67fbbf510
+signature:
+  inputs: '[{"type": "double", "name": "sepal length (cm)", "required": true}, {"type":
+    "double", "name": "sepal width (cm)", "required": true}, {"type": "double", "name":
+    "petal length (cm)", "required": true}, {"type": "double", "name": "petal width
+    (cm)", "required": true}, {"type": "double", "name": "sepal length (cm)", "required":
+    false}, {"type": "double", "name": "sepal width (cm)", "required": false}, {"type":
+    "double", "name": "petal length (cm)", "required": false}, {"type": "double",
+    "name": "petal width (cm)", "required": false}]'
+  outputs: '[{"type": "integer", "name": "species", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-11 07:31:41.425123'
